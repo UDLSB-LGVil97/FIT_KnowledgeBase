@@ -1,0 +1,11 @@
+#### Paquetes de Frontend ####
+matplotlib
+seaborn
+altair
+streamlit
+bokeh
+
+
+#### Paquetes de Backend ####
+pandas
+numpy
