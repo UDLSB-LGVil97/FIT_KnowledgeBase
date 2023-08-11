@@ -13,7 +13,7 @@ def Inicio_content():
     necesaria para el desarrollo de las materias presentes.
     """
     )
-    image_home = Image.open(".../assets/home/logo_FIT.jpg")
+    image_home = Image.open("/assets/home/logo_FIT.jpg")
     st.image(image_home)
 
 
