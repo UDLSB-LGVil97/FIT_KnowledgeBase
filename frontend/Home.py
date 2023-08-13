@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 
 
@@ -13,8 +12,7 @@ def Inicio_content():
     necesaria para el desarrollo de las materias presentes.
     """
     )
-    image_home = Image.open("/assets/home/logo_FIT.jpg")
-    st.image(image_home)
+    st.image("https://i.ibb.co/5YgrwwN/logo-FIT.jpg")
 
 
 

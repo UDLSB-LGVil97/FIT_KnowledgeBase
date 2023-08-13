@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 
 
@@ -26,19 +25,16 @@ def Inicio_content():
     tab1, tab2, tab3, tab4 = st.tabs(["Material Icon Theme", "Code Runner", "C/C++ Extension Pack", "Compilador"])
     with tab1:
         st.markdown("[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)")
-        image_tab1 = Image.open("../assets/programacion/inicio/extension_icons.png")
-        st.image(image_tab1, width=500)
+        st.image("https://i.ibb.co/rK90HRc/extension-icons.png", width=500)
     with tab2:
         st.markdown("[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)")
-        image_tab2 = Image.open("../assets/programacion/inicio/extension_runner.png")
-        st.image(image_tab2, width=500)
+        st.image("https://i.ibb.co/T0n6pF0/extension-runner.png", width=500)
     with tab3:
         st.markdown("[C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)")
-        image_tab3 = Image.open("../assets/programacion/inicio/extension_c.png")
-        st.image(image_tab3, width=500)
+        st.image("https://i.ibb.co/ScWkYR9/extension-c.png", width=500)
     with tab4:
         st.markdown("[MinGW](https://sourceforge.net/projects/mingw)")
-        st.image("../assets/programacion/inicio/complement_mingw.png", width=500)
+        st.image("https://i.ibb.co/0K0gJbL/complement-mingw.png", width=500)
         st.write("Windows 10")
         st.video("https://www.youtube.com/watch?v=77v-Poud_io")
         st.write("Windows 11")
