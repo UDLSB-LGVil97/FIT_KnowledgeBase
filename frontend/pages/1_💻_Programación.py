@@ -16,7 +16,6 @@ def Inicio_content():
     """  
     )
     st.image("https://code.visualstudio.com/opengraphimg/opengraph-home.png")
-
     st.markdown(
     """
     ### Complementos

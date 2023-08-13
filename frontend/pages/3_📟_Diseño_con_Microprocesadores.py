@@ -16,7 +16,6 @@ def Inicio_content():
     """  
     )
     st.image("https://code.visualstudio.com/opengraphimg/opengraph-home.png")
-
     st.markdown(
     """
     ### Complementos
@@ -52,6 +51,7 @@ def Inicio_content():
     """
     ## PSoC Creator
     [PSoC Creator v4.4](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.psoccreator)
+    [.NET Framework 3.5](https://dotnet.microsoft.com/es-es/download/dotnet-framework/net35-sp1)
     """  
     )
     st.image("https://i.ytimg.com/vi/eacL0myDFws/hqdefault.jpg")
