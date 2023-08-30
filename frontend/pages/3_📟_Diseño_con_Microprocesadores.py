@@ -8,6 +8,7 @@ def Inicio_content():
     # Instalación de software
     """  
     )
+    st.divider()
 
     st.markdown(
     """
@@ -16,6 +17,8 @@ def Inicio_content():
     """  
     )
     st.image("https://code.visualstudio.com/opengraphimg/opengraph-home.png")
+    st.divider()
+
     st.markdown(
     """
     ### Complementos
@@ -32,12 +35,11 @@ def Inicio_content():
         st.markdown("[C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)")
         st.image("https://i.ibb.co/ScWkYR9/extension-c.png", width=500)
     with tab4:
-        st.markdown("[MinGW](https://sourceforge.net/projects/mingw)")
-        st.image("https://i.ibb.co/0K0gJbL/complement-mingw.png", width=500)
-        st.write("Windows 10")
-        st.video("https://www.youtube.com/watch?v=77v-Poud_io")
-        st.write("Windows 11")
-        st.video("https://www.youtube.com/watch?v=eWSpJWRqxkw")
+        st.markdown("[TDM-GCC](https://jmeubank.github.io/tdm-gcc/)")
+        st.image("https://i.ibb.co/xCm3tXr/complement-tdmgcc.png", width=500)
+        st.write("Windows 10/11")
+        st.video("https://www.youtube.com/watch?v=uPGs8eJ98aE")
+    st.divider()
 
     st.markdown(
     """
@@ -46,6 +48,7 @@ def Inicio_content():
     """  
     )
     st.image("https://blog.coffeedevs.com/content/images/size/w1000/2016/07/Git-rename-branch.jpg")
+    st.divider()
 
     st.markdown(
     """
@@ -55,6 +58,7 @@ def Inicio_content():
     """  
     )
     st.image("https://i.ytimg.com/vi/eacL0myDFws/hqdefault.jpg")
+    st.divider()
 
     st.markdown(
     """
@@ -63,6 +67,7 @@ def Inicio_content():
     """  
     )
     st.image("https://docs.arduino.cc/static/36ffc036e2c2e9fcdec541c603989a81/c6720/local-sketchbook.png")
+    st.divider()
 
     st.markdown(
     """
